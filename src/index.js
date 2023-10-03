@@ -13,6 +13,19 @@ import Counter from './UseReducer/Reducer_age';
 import Reducer_exam_1 from './UseReducer/Reducer_exam_1';
 import Props_exam_1 from './Props/Props_exam_1';
 import Prop_data from './Props/Prop_data';
+import Api_practice from './UseState/Api/Api_practice';
+import Filter from './Components/Category/Filter';
+import Ternary from './Components/Ternary_operator/Ternary';
+import Effect from './Components/useEffect/Effect_practice';
+import CreateContext from './Components/UseContext/CreateContext';
+import U_Context from './Components/UseContext/U_Context';
+import Update from './Components/Update';
+import UseRef_exam from './Components/UseRed/UseRef_exam';
+import UseRef_exam2 from './Components/UseRed/UseRef_exam2';
+import UseRef_input from './Components/UseRed/UseRef_input';
+import UseRef_name from './Components/UseRed/UseRef_name';
+import UseEffect_with_Api from './Components/useEffect/UseEffect_With_Api';
+import Customhook_Api from './Components/CustomHooks/Customhook_Api';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -25,10 +38,25 @@ root.render(
     <U_state_input/>
     <U_state_radiobtn/>
     <TodoList/> */}
-    {/* <Counter/>
-    <Reducer_exam_1/>
-     */}
-    <Prop_data/>
+    {/* <Counter/> */}
+    {/* <Reducer_exam_1/> */}
+    
+    {/* <Prop_data/> */}
+    {/* <Api_practice/> */}
+    {/* <Filter/> */}
+    {/* <Ternary/> */}
+    {/* <Effect/> */}
+    {/* <UseEffect_with_Api/> */}
+    
+    {/* <CreateContext/> */}
+    {/* <U_Context/> */}
+    {/* <Update/> */}
+    {/* <UseRef_exam/> */}
+    {/* <UseRef_exam2/>
+    <UseRef_input/>
+    <UseRef_name/> */}
+    <Customhook_Api/>
+
   </React.StrictMode>
 );
 

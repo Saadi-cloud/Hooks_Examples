@@ -6,6 +6,8 @@ const reducer = (state, action) => {
       return state + 1;
     case "Decrement":
       return state - 1;
+    case "MUL":
+      return state * 2;
     default:
       return state;
   }
@@ -17,6 +19,7 @@ function Reducer_exam_1() {
         <div>Count: {count}</div>
       <button onClick={()=> dispatch("increment")}>increment</button>
       <button onClick={()=> dispatch("Decrement")}>Decrement</button>
+      <button onClick={()=>dispatch("MUL")}>Multiplier</button>
     </div>
   );
 }
