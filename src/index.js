@@ -26,6 +26,10 @@ import UseRef_input from './Components/UseRed/UseRef_input';
 import UseRef_name from './Components/UseRed/UseRef_name';
 import UseEffect_with_Api from './Components/useEffect/UseEffect_With_Api';
 import Customhook_Api from './Components/CustomHooks/Customhook_Api';
+import UseMamo from './Components/UseMamo/UseMamo';
+import Tab from './Components/Tabs/Tab';
+import Tab1 from './Components/Tabs/Tab1';
+import SolutionUseMamo from './Components/UseMamo/SolutionUseMamo';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -51,11 +55,15 @@ root.render(
     {/* <CreateContext/> */}
     {/* <U_Context/> */}
     {/* <Update/> */}
-    {/* <UseRef_exam/> */}
-    {/* <UseRef_exam2/>
+    {/* <UseRef_exam/> 
+    <UseRef_exam2/>
     <UseRef_input/>
     <UseRef_name/> */}
-    <Customhook_Api/>
+     {/* <Customhook_Api/> */}
+    {/* <UseMamo/> */}
+    {/* <SolutionUseMamo/> */}
+    <Tab/>
+    <Tab1/>
 
   </React.StrictMode>
 );
